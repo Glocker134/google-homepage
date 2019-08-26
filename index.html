@@ -4,30 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <title>Google</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> <!-- Roboto font -->
     <link rel="stylesheet" type="text/css" href="./resources/css/normalize.css"> <!-- normalize -->
     <link rel="stylesheet" type="text/css" href="./resources/css/style.css"> <!-- Personal CSS file -->
 </head>
 
 <body>
-    <div class="search-bar" id="viewport">
-        <form class="search" action="/search" style="overflow:visible" id="tsf" method="GET">
-            <div class="search-box">
-                <div class="search-box-left">
-                    <input class="gLFyf gsfi" type="text" title="Search">
-                </div>
-                <div class="search-right">
-                    <span class="mic"></span>
-                </div>
-            </div> 
-            <div>
-                <div class="btn-left">
-
-                </div>
-                <div class="btn-right">
-                    
-                </div>
-            </div>         
+    <div id="main">
+        <div id="nav-top">
+            <ul>
+                <li><a href="#" id="gmail">Gmail</a></li>
+                <li><a href="#" id="images">Images</a></li>
+                <li><a href="#"><img id="drawer" src="./resources/img/drawer.png""></a></li>
+                <li><a href=" #"><img id="photo" src="./resources/img/photo.png"></a></li>
+            </ul>
+        </div>
+        <div id="logo">
+            <img id="google-logo" src="./resources/img/logo.png">
+        </div>
+        <form id="searchbox-area" action="#">
+            <div id="searchbox">
+                <input type="text" id="searchbox">
+            </div>
+            <div id="buttons">
+                <input type="submit" value="Google Search">
+                <input type="submit" value="I'm Feeling Lucky">
+            </div>
         </form>
+        <div id="footer">
+            <div id="left-side">
+                <ul>
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">How Search works</a></li>
+                </ul>
+            </div>
+            <div id="right-side">
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Settings</a></li>
+            </div>
+        </div>
     </div>
 </body>
 
