@@ -93,6 +93,9 @@ body {
     height: 30px;
 }
 
+#searchbox input:focus, textarea {
+    outline: none;
+}
 
 #buttons {
     padding-top: 18px;
